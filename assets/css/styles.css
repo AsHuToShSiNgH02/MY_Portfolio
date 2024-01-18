@@ -515,7 +515,19 @@ body.dark-theme{
 .home__scroll-box i{
   animation: scroll-down 3s infinite;
 }
+.home__description a{
+  color: var(--first-color);
+  padding: 2px 7px;
+  border: solid 2px var(--first-color);
+  border-radius: 2rem;
+  font-size: 20px;
+  margin-top: 10rem;
+}
+.download:hover{
+  background-color: hsla(14, 98%, 50%, .3);
+  color: white;
 
+}
 @keyframes scroll-down{
   0%{
     transform: translateY(-1rem);
